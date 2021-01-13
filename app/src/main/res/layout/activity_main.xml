@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/catty2" />
+
+    <View
+        android:id="@+id/border"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-45dp"
+        android:background="#CD853F" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="122dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="67dp"
+        android:src="@drawable/map" />
+
+    <TextView
+        android:layout_width="293dp"
+        android:layout_height="251dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="160dp"
+        android:text="\n 256 Texas Street \n Dallas, TX 75226 \n \n Angelscats@gmail.com \n 728-867-1154 \n\n Hours of Operation: \n Monday - Friday \n 8am to 5pm"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
